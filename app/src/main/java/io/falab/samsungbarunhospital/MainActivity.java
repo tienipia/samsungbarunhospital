@@ -22,10 +22,10 @@ import android.widget.ViewFlipper;
 public class MainActivity extends AppCompatActivity {
 
     private ViewFlipper mViewFlipper;
+
     private ImageView[] imageButtons;
 
     private Button button;
-
 
     private long last_clicked = 0L;
 
@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         imageButtons[1].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startNewActivity(MainActivity.this, "kr.co.captv.pooqV2");
+                // startNewActivity(MainActivity.this, "kr.co.captv.pooqV2");
+                startNewActivity(MainActivity.this, "com.movienet.touch.wavveon");
             }
         });
         imageButtons[2].setOnClickListener(new View.OnClickListener() {
