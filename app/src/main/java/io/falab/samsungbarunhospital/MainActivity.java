@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         imageButtons[2].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openWebPage("http://samsungbarunhospital.com");
+                openWebPage("http://samsungbarunhospital.com?device=pc");
             }
         });
         imageButtons[3].setOnClickListener(new View.OnClickListener() {
@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
         imageButtons[4].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 openWebPage("https://blog.naver.com/samsungbarunhospital");
             }
         });
