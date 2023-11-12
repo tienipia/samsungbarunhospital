@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         imageButtons[4].setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openWebPage("https://blog.naver.com/samsungbarunhospital");
+                openWebPage("https://blog.naver.com/samsungbarunhosp");
             }
         });
 
